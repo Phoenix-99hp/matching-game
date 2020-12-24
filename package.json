@@ -1,4 +1,5 @@
 {
+	"homepage": "https://phoenix-99hp.github.io/matching-game",
 	"name": "memory",
 	"version": "0.1.0",
 	"private": true,
@@ -17,7 +18,7 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"deploy": "react-scripts build && gh-pages -d build -b source",
+		"deploy": "npm run build && gh-pages -d build -b source",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
 	},
